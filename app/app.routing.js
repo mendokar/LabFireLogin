@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var login_component_1 = require("./pages/login/login.component");
+exports.Routes = [
+    { path: "", component: login_component_1.LoginComponent }
+];
+exports.NavegateRoutes = [
+    login_component_1.LoginComponent
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLnJvdXRpbmcuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJhcHAucm91dGluZy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLGlFQUErRDtBQUVsRCxRQUFBLE1BQU0sR0FBRTtJQUNqQixFQUFDLElBQUksRUFBQyxFQUFFLEVBQUMsU0FBUyxFQUFDLGdDQUFjLEVBQUM7Q0FDckMsQ0FBQTtBQUVZLFFBQUEsY0FBYyxHQUFFO0lBQ3pCLGdDQUFjO0NBQ2pCLENBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBMb2dpbkNvbXBvbmVudCB9IGZyb20gXCIuL3BhZ2VzL2xvZ2luL2xvZ2luLmNvbXBvbmVudFwiO1xyXG5cclxuZXhwb3J0IGNvbnN0IFJvdXRlcyA9W1xyXG4gICAge3BhdGg6XCJcIixjb21wb25lbnQ6TG9naW5Db21wb25lbnR9XHJcbl1cclxuXHJcbmV4cG9ydCBjb25zdCBOYXZlZ2F0ZVJvdXRlcyA9W1xyXG4gICAgTG9naW5Db21wb25lbnRcclxuXSJdfQ==

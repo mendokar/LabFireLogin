@@ -1,0 +1,17 @@
+<ActionBar title="Login Component"></ActionBar>
+<!-- Your UI components go here -->
+<Gradient direction="to top left" colors="#00a58c, #e8bd4b" width="100%" height="100%" style="margin-bottom:0">
+    <StackLayout class="form">
+        <Image class="img" src="~/images/salad_grande.png"></Image>
+        <Label class="titulo" text="Lab FireLogin"></Label>
+        <Label class="lbl" text="Correo Electronico"></Label>
+        <TextField class="txt" keyboardType="email"></TextField>
+        <Label class="lbl" text="Contraseña"></Label>
+        <TextField class="txt" keyboardType="number"></TextField>
+        <Button (touch)="onTouch($event)" class="btn" text="Iniciar Sesion"></Button>
+        <StackLayout>
+            <Label class="lbl1" text="o registrate"></Label>
+            <Button (touch)="onTouch($event)" class="btn" text="Registrarme"></Button>
+        </StackLayout>
+    </StackLayout>
+</Gradient>
